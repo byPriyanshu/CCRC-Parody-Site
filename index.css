@@ -101,11 +101,12 @@ nav{
     box-sizing: border-box;
     width: 100%;
     height: 560px;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin-top: 75px;
-    padding: 0px 100px;
+    padding: 0px 70px 0px 120px;
     background-color: #E0494E;
+    gap: 30px;
 }
 .desc{
     display: flex;
@@ -141,7 +142,7 @@ nav{
 }
 .desc-logo img{
     height: auto;
-    width: 100%;
+    width: 475px;
 }
 .enroll{
     cursor: pointer;
